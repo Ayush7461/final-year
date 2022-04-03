@@ -12,7 +12,7 @@ Weight = st.number_input("Enter your value of Weight: ",value=50)
 Height = st.number_input("Enter your value of Height: ",value=150)
 
 # MUAC in Centi Meter
-MUAC=st.number_input("Enter your value of Height: ",value=0)
+MUAC=st.number_input("Enter your value of Muac: ",value=0)
 
 
 # BMI is the Body Mass Index
