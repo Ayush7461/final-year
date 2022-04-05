@@ -1,5 +1,11 @@
 import streamlit as st
 st.title('Decision Support System')
+[theme]
+primaryColor="#F63366"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F0F2F6"
+textColor="#262730"
+font="sans serif"
 Name= st.text_input("Enter your Name: ")
 
 Age = st.text_input("Enter your value of Age: ")
@@ -7,13 +13,13 @@ Age = st.text_input("Enter your value of Age: ")
 Sex= st.text_input("Enter your Sex: ")
 
 # Weights in kg.
-Weight = st.number_input("Enter your value of Weight: ",value=)
+Weight = st.number_input("Enter your value of Weight: ",value=50)
 
 # Height in meter square.
-Height = st.number_input("Enter your value of Height: ",value=)
+Height = st.number_input("Enter your value of Height: ",value=150)
 
 # MUAC in Centi Meter
-MUAC=st.number_input("Enter your value of Muac: ",value=)
+MUAC=st.number_input("Enter your value of Muac: ",value=0)
 
 
 # BMI is the Body Mass Index
