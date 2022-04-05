@@ -1,12 +1,16 @@
 import streamlit as st
 st.title('Decision Support System')
-.streamlit/config.toml
-[theme]
+#Themes
 primaryColor="#F63366"
-backgroundColor="#FFFFFF"
+
+backgroundColor="#99ccff"
+
 secondaryBackgroundColor="#F0F2F6"
+
 textColor="#262730"
+
 font="sans serif"
+
 Name= st.text_input("Enter your Name: ")
 
 Age = st.text_input("Enter your value of Age: ")
