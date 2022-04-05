@@ -20,6 +20,6 @@ MUAC=st.number_input("Enter your value of Muac: ",value=0)
 BMI= float(Weight/(Height*Height))
 
 if(BMI < 12 or MUAC <12.5):
-    st.title('MalNutrition')
+    st.header('MalNutrition')
 else:
-    st.title('Not MalNutrition')
+    st.header('Not MalNutrition')
