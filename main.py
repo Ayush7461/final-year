@@ -7,13 +7,13 @@ Age = st.text_input("Enter your value of Age: ")
 Sex= st.text_input("Enter your Sex: ")
 
 # Weights in kg.
-Weight = st.number_input("Enter your value of Weight: ",value=0)
+Weight = st.number_input("Enter your value of Weight: ",value=0.00)
 
 # Height in meter square.
-Height = st.number_input("Enter your value of Height: ",value=0)
+Height = st.number_input("Enter your value of Height: ",value=0.00)
 
 # MUAC in Centi Meter
-MUAC=st.number_input("Enter your value of Muac: ",value=0)
+MUAC=st.number_input("Enter your value of Muac: ",value=0.00)
 
 
 # BMI is the Body Mass Index
