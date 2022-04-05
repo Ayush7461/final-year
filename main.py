@@ -1,4 +1,5 @@
 import streamlit as st
+st.title('Decision Support System')
 Name= st.text_input("Enter your Name: ")
 
 Age = st.text_input("Enter your value of Age: ")
