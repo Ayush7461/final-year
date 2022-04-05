@@ -1,5 +1,7 @@
 import streamlit as st
 st.title('Decision Support System')
+.streamlit/config.toml
+[theme]
 primaryColor="#F63366"
 backgroundColor="#FFFFFF"
 secondaryBackgroundColor="#F0F2F6"
